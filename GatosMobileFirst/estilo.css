@@ -1,0 +1,91 @@
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    background-color: lightslategray;
+    font-weight: bold;
+    color: slategray;
+    text-align: center;
+}
+
+
+h1{
+    color: lightsteelblue;
+    font-size: 2rem;
+    text-shadow: 2px 2px midnightblue;
+    line-height: 1rem;
+
+}
+
+/*Mobilie First*/
+
+.container{
+    display: flex;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap; /*quebra para a proxima linha: quebrar se necessario */
+    
+}
+
+.assunto{
+    font-size: 1.5rem;
+    width: 100%;
+    color: midnightblue;
+    padding: 12px 12px 0px 12px;
+
+}
+
+.assunto:hover{
+    text-shadow: 2px 2px lightsteelblue;
+}
+
+.texto{
+    font-size: 1rem;
+    width: 100%;
+    padding: 5px;
+}
+
+.texto:hover{
+    text-shadow: 3px 3px lightsteelblue;
+}
+
+.imagem{
+    padding: 10px;
+    width: 80%;
+
+}
+
+img{
+    width: 100%;
+    filter: brightness(30%);
+}
+
+img:hover{
+    filter: brightness(100%);
+
+}
+
+@media screen and (min-width: 980px) {
+.container{
+    flex: nowrap;
+}
+
+.assunto{
+    width: 20%;
+}
+
+.texto{
+    font-size: 1.2rem;
+    padding: 12px 12px 0 12px;
+    width: 58%;
+}
+
+.imagem{
+    padding: 12px 12px 0 12px;
+    width: 22%;
+}
+
+
+    
+}
