@@ -68,7 +68,7 @@ h1{
     text-shadow: 1px 1px sienna;
 }
 
-@media screen (wnd-width: 980px) {
+@media screen and (win-width: 980px) {
     header{
         font-size: 2.5rem;
     }
